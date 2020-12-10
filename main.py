@@ -11,7 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 api = FastAPI()
 
-origins=["https://cajero-apt-jdvpl.herokuapp.com"]
+origins=["http://localhost", "http://localhost:8080", "http://localhost:8081"]
 
 api.add_middleware(
     CORSMiddleware,allow_origins=origins,
