@@ -31,3 +31,8 @@ export default {
 }
 
 </script>
+<style>
+nav {
+  background-color: rgba(0, 0, 0, 0.521) !important;
+}
+</style>

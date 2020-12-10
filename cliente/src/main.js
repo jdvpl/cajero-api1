@@ -3,15 +3,20 @@
 import Vue from 'vue'
 import App from './App'
 import {BootstrapVue} from 'bootstrap-vue'
-
-Vue.use(BootstrapVue)
-Vue.config.productionTip = false
-
+import vueRouter from 'vue-router'
+import router from './router'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+Vue.use(vueRouter)
+Vue.use(BootstrapVue)
+Vue.config.productionTip = false
+
+
 /* eslint-disable no-new */
+Vue.config.productionTip=false
 new Vue({
+  router,
   el: '#app',
   components: { App },
   template: '<App/>'
