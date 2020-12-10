@@ -1,4 +1,0 @@
-axios
-npm i --save axios
-instar el router
-npm i --save vue-router
